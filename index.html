@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Mi Portfolio</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Home/Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Bienvenido a mi Portfolio</h1>
+            <p class="hero-subtitle">Desarrollador de Software</p>
+            <a href="#about" class="btn-primary"><span>Conoce más</span></a>
+        </div>
+    </section>
+
+    <!-- Sección About Me -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/300x300?text=Tu+Foto" alt="Foto de perfil">
+                </div>
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>Desarrollador de Software & QA</h3>
+                        <p>
+                            Hola! Soy un desarrollador de software muy dedicado con experiencia en Spring, Java, 
+                            JavaScript, MySQL, React, CSS y Git. Tengo una comprensión integral de diferentes 
+                            frameworks y me encanta el desarrollo web y el diseño.
+                        </p>
+                    </div>
+                    <div class="about-skills-list">
+                        <div class="skill-badge">Desarrollo Backend</div>
+                        <div class="skill-badge">Desarrollo Frontend</div>
+                        <div class="skill-badge">QA Testing</div>
+                        <div class="skill-badge">Diseño Gráfico</div>
+                    </div>
+                    <p>
+                        Tengo un fuerte dominio en la gestión de bases de datos usando MySQL y me aseguro 
+                        de crear interfaces de usuario visualmente atractivas con diferentes herramientas 
+                        a mi disposición. También tengo conocimientos en <strong>QA (Quality Assurance)</strong>, 
+                        incluyendo testing manual y automatizado, así como en Diseño Gráfico y herramientas 
+                        de Adobe Software Pack.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <strong>Idiomas:</strong>
+                                <span>Inglés (Competente C2) / Español (Nativo)</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <strong>QA:</strong>
+                                <span>Testing Manual y Automatizado</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Skills -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <span>React</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <span>MySQL</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+                <div class="skill-item spring-item">
+                    <div class="spring-logo-wrapper">
+                        <i class="fab fa-spring"></i>
+                    </div>
+                    <span>Spring</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-node-js"></i>
+                    <span>Node.js</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Proyecto+1" alt="Proyecto 1">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Website</span>
+                        <h3 class="project-title">Punta Glacial Ice Cream Shop</h3>
+                        <p class="project-description">
+                            Sitio web moderno para una heladería con diseño atractivo y funcionalidades interactivas.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Ver Demo
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Proyecto+2" alt="Proyecto 2">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Website</span>
+                        <h3 class="project-title">Macrotec Real State</h3>
+                        <p class="project-description">
+                            Plataforma inmobiliaria con catálogo de propiedades y sistema de búsqueda avanzado.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Ver Demo
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Proyecto+3" alt="Proyecto 3">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">App</span>
+                        <h3 class="project-title">Vitalidapp Health Service</h3>
+                        <p class="project-description">
+                            Aplicación de servicios de salud con gestión de citas y seguimiento médico.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Ver Demo
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Proyecto+4" alt="Proyecto 4">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Website</span>
+                        <h3 class="project-title">Supremo Restaurant</h3>
+                        <p class="project-description">
+                            Sitio web elegante para restaurante con menú interactivo y sistema de reservas.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Ver Demo
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Proyecto+5" alt="Proyecto 5">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Website</span>
+                        <h3 class="project-title">Sucar Car Dealership</h3>
+                        <p class="project-description">
+                            Concesionario de autos con catálogo de vehículos y sistema de contacto.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Ver Demo
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250?text=Proyecto+6" alt="Proyecto 6">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Design</span>
+                        <h3 class="project-title">App Design</h3>
+                        <p class="project-description">
+                            Diseño visual de aplicación móvil con UI/UX moderno y atractivo.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Ver Demo
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p class="contact-subtitle">Find me on:</p>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/speroni-matias/" class="contact-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/MattVmx" class="contact-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:smatias94.rz@gmail.com" class="contact-link" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Made by Matías Speroni, 2024</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
