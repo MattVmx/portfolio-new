@@ -1,5 +1,7 @@
 # Portfolio Personal - React
 
+Deployed on Vercel
+
 Portfolio web moderno y responsive construido con React, con las siguientes secciones:
 
 ## Secciones
