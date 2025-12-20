@@ -10,7 +10,7 @@ const About = () => {
         <h2 className="section-title">{t('about.title')}</h2>
         <div className="about-content">
           <div className="about-image">
-            <img src="/images/profile.jpg" alt="Profile photo" onError={(e) => { e.target.src = "/images/profile.png"; }} />
+            <img src="/images/profile.jpg" alt="Profile" />
           </div>
           <div className="about-text">
             <div className="about-intro">
