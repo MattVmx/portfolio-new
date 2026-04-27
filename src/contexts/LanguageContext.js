@@ -20,21 +20,21 @@ const translations = {
       contact: 'CONTACT'
     },
     hero: {
-      title: 'Welcome to my Portfolio',
+      title: 'Welcome to my portfolio',
       subtitle: 'Web Developer',
       button: 'Learn more'
     },
     about: {
       title: 'About Me',
       role: 'Software Developer & QA',
-      intro: 'Hello! I am a very dedicated software developer with experience in Spring, Java, JavaScript, MySQL, React, CSS and Git. I have a comprehensive understanding of different frameworks and I love web development and design.',
+      intro: 'Hello! I am a dedicated software developer with experience in Spring, Java, JavaScript, MySQL, React, CSS, and Git. I have a solid grasp of various frameworks and I am passionate about web development and design.',
       skills: {
         backend: 'Backend Development',
         frontend: 'Frontend Development',
         qa: 'QA Testing',
         design: 'Graphic Design'
       },
-      description: 'I have a strong command of database management using MySQL and I make sure to create visually appealing user interfaces with different tools at my disposal. I also have knowledge in QA (Quality Assurance), including manual and automated testing, as well as Graphic Design and Adobe Software Pack tools.',
+      description: 'I have strong database skills with MySQL and focus on building visually appealing user interfaces using a range of tools. I also work in QA (Quality Assurance), including manual and automated testing, as well as graphic design and Adobe Creative Cloud applications.',
       languages: 'Languages:',
       languagesValue: 'English (Competent C2) / Spanish (Native)',
       qa: 'QA:',
@@ -53,7 +53,7 @@ const translations = {
       subtitle: 'Find me on:'
     },
     footer: {
-      text: 'Made by Matías Speroni, 2025'
+      text: 'Made by Matías Speroni, 2026'
     }
   },
   es: {
@@ -98,7 +98,7 @@ const translations = {
       subtitle: 'Encuéntrame en:'
     },
     footer: {
-      text: 'Hecho por Matías Speroni, 2025'
+      text: 'Hecho por Matías Speroni, 2026'
     }
   }
 };

@@ -6,32 +6,10 @@ const Projects = () => {
   
   const projects = [
     {
-      type: 'Website',
-      title: 'Punta Glacial Ice Cream Shop',
-      description: {
-        en: 'Modern website for an ice cream shop with attractive design and interactive features.',
-        es: 'Sitio web moderno para una heladería con diseño atractivo y funcionalidades interactivas.'
-      },
-      image: '/images/heladeria.jpg',
-      demo: 'https://mattvmx.github.io/puntaglacial-web/',
-      code: null
-    },
-    {
-      type: 'Website',
-      title: 'Macrotec Real State',
-      description: {
-        en: 'Real estate platform with property catalog and advanced search system.',
-        es: 'Plataforma inmobiliaria con catálogo de propiedades y sistema de búsqueda avanzado.'
-      },
-      image: '/images/macrotec.jpg',
-      demo: 'https://mattvmx.github.io/macrotec-web/',
-      code: null
-    },
-    {
       type: 'App',
       title: 'Vitalidapp Health Service',
       description: {
-        en: 'Health services application with appointment management and medical tracking.',
+        en: 'Healthcare application for appointment scheduling and medical follow-up.',
         es: 'Aplicación de servicios de salud con gestión de citas y seguimiento médico.'
       },
       image: '/images/vitalidapp.jpg',
@@ -40,9 +18,31 @@ const Projects = () => {
     },
     {
       type: 'Website',
+      title: 'Punta Glacial Ice Cream Shop',
+      description: {
+        en: 'Modern website for an ice cream shop with an engaging design and interactive features.',
+        es: 'Sitio web moderno para una heladería con diseño atractivo y funcionalidades interactivas.'
+      },
+      image: '/images/heladeria.jpg',
+      demo: 'https://mattvmx.github.io/puntaglacial-web/',
+      code: null
+    },
+    {
+      type: 'Website',
+      title: 'Macrotec Real Estate',
+      description: {
+        en: 'Real estate platform with a property catalog and advanced search.',
+        es: 'Plataforma inmobiliaria con catálogo de propiedades y sistema de búsqueda avanzado.'
+      },
+      image: '/images/macrotec.jpg',
+      demo: 'https://mattvmx.github.io/macrotec-web/',
+      code: null
+    },
+    {
+      type: 'Website',
       title: 'Supremo Restaurant',
       description: {
-        en: 'Elegant restaurant website with interactive menu and reservation system.',
+        en: 'Elegant restaurant website with an interactive menu and reservations.',
         es: 'Sitio web elegante para restaurante con menú interactivo y sistema de reservas.'
       },
       image: '/images/supremo.jpg',
@@ -53,7 +53,7 @@ const Projects = () => {
       type: 'Website',
       title: 'Sucar Car Dealership',
       description: {
-        en: 'Car dealership with vehicle catalog and contact system.',
+        en: 'Car dealership site with a vehicle catalog and contact options.',
         es: 'Concesionario de autos con catálogo de vehículos y sistema de contacto.'
       },
       image: '/images/sucar.jpg',
@@ -64,7 +64,7 @@ const Projects = () => {
       type: 'Design',
       title: 'App Design',
       description: {
-        en: 'Visual design of mobile application with modern and attractive UI/UX.',
+        en: 'Mobile app visual design with a modern, polished UI/UX.',
         es: 'Diseño visual de aplicación móvil con UI/UX moderno y atractivo.'
       },
       image: '/images/app.jpg',

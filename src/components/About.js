@@ -27,7 +27,7 @@ const About = () => {
             </div>
             <p>
               {language === 'en' 
-                ? <>I have a strong command of database management using MySQL and I make sure to create visually appealing user interfaces with different tools at my disposal. I also have knowledge in <strong>QA (Quality Assurance)</strong>, including manual and automated testing, as well as Graphic Design and Adobe Software Pack tools.</>
+                ? <>I have strong database skills with MySQL and focus on building visually appealing user interfaces using a range of tools. I also work in <strong>QA (Quality Assurance)</strong>, including manual and automated testing, as well as graphic design and Adobe Creative Cloud applications.</>
                 : <>Tengo un fuerte dominio en la gestión de bases de datos usando MySQL y me aseguro de crear interfaces de usuario visualmente atractivas con diferentes herramientas a mi disposición. También tengo conocimientos en <strong>QA (Quality Assurance)</strong>, incluyendo testing manual y automatizado, así como en Diseño Gráfico y herramientas de Adobe Software Pack.</>
               }
             </p>
