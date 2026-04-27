@@ -4,7 +4,7 @@ import { useLanguage } from '../contexts/LanguageContext';
 const PROFILE_FALLBACK = 'https://github.com/MattVmx.png';
 
 const About = () => {
-  const { t, language } = useLanguage();
+  const { t } = useLanguage();
   const [profileSrc, setProfileSrc] = useState(
     () => `${process.env.PUBLIC_URL || ''}/images/profile.jpg`.replace(/([^:]\/)\/+/g, '$1')
   );
@@ -36,12 +36,7 @@ const About = () => {
               <div className="skill-badge">{t('about.skills.qa')}</div>
               <div className="skill-badge">{t('about.skills.design')}</div>
             </div>
-            <p>
-              {language === 'en' 
-                ? <>I have strong database skills with MySQL and focus on building visually appealing user interfaces using a range of tools. I also work in <strong>QA (Quality Assurance)</strong>, including manual and automated testing, as well as graphic design and Adobe Creative Cloud applications.</>
-                : <>Tengo un fuerte dominio en la gestión de bases de datos usando MySQL y me aseguro de crear interfaces de usuario visualmente atractivas con diferentes herramientas a mi disposición. También tengo conocimientos en <strong>QA (Quality Assurance)</strong>, incluyendo testing manual y automatizado, así como en Diseño Gráfico y herramientas de Adobe Software Pack.</>
-              }
-            </p>
+            <p>{t('about.description')}</p>
             <div className="about-info">
               <div className="info-item">
                 <i className="fas fa-language"></i>

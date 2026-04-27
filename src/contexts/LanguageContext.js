@@ -27,14 +27,14 @@ const translations = {
     about: {
       title: 'About Me',
       role: 'Frontend Developer | QA',
-      intro: 'Hello! I am a dedicated software developer with experience in Spring, Java, JavaScript, MySQL, React, CSS, and Git. I have a solid grasp of various frameworks and I am passionate about web development and design.',
+      intro: 'Frontend developer focused on React, with experience working with APIs and full-stack applications.',
       skills: {
         backend: 'Backend Development',
         frontend: 'Frontend Development',
         qa: 'QA Testing',
         design: 'Graphic Design'
       },
-      description: 'I have strong database skills with MySQL and focus on building visually appealing user interfaces using a range of tools. I also work in QA (Quality Assurance), including manual and automated testing, as well as graphic design and Adobe Creative Cloud applications.',
+      description: 'Also MySQL, QA (manual and automated), Adobe tools, and close collaboration with backend teams.',
       languages: 'Languages:',
       languagesValue: 'English (Competent C2) / Spanish (Native)',
       qa: 'QA:',
@@ -72,14 +72,14 @@ const translations = {
     about: {
       title: 'Sobre Mí',
       role: 'Desarrollador Frontend | QA',
-      intro: 'Hola! Soy un desarrollador de software muy dedicado con experiencia en Spring, Java, JavaScript, MySQL, React, CSS y Git. Tengo una comprensión integral de diferentes frameworks y me encanta el desarrollo web y el diseño.',
+      intro: 'Desarrollador frontend enfocado en React, con experiencia en APIs y aplicaciones full-stack.',
       skills: {
         backend: 'Desarrollo Backend',
         frontend: 'Desarrollo Frontend',
         qa: 'QA Testing',
         design: 'Diseño Gráfico'
       },
-      description: 'Tengo un fuerte dominio en la gestión de bases de datos usando MySQL y me aseguro de crear interfaces de usuario visualmente atractivas con diferentes herramientas a mi disposición. También tengo conocimientos en QA (Quality Assurance), incluyendo testing manual y automatizado, así como en Diseño Gráfico y herramientas de Adobe Software Pack.',
+      description: 'Además: MySQL, QA (manual y automatizado), herramientas Adobe y trabajo conjunto con equipos backend.',
       languages: 'Idiomas:',
       languagesValue: 'Inglés (Competente C2) / Español (Nativo)',
       qa: 'QA:',
