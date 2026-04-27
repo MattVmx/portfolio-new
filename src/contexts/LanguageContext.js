@@ -20,13 +20,13 @@ const translations = {
       contact: 'CONTACT'
     },
     hero: {
-      title: 'Welcome to my portfolio',
-      subtitle: 'Web Developer',
+      title: 'Matías Speroni',
+      subtitle: 'Frontend Developer',
       button: 'Learn more'
     },
     about: {
       title: 'About Me',
-      role: 'Software Developer & QA',
+      role: 'Frontend Developer | QA',
       intro: 'Hello! I am a dedicated software developer with experience in Spring, Java, JavaScript, MySQL, React, CSS, and Git. I have a solid grasp of various frameworks and I am passionate about web development and design.',
       skills: {
         backend: 'Backend Development',
@@ -65,13 +65,13 @@ const translations = {
       contact: 'CONTACTO'
     },
     hero: {
-      title: 'Bienvenido a mi Portfolio',
-      subtitle: 'Desarrollador Web',
+      title: 'Matías Speroni',
+      subtitle: 'Desarrollador Frontend',
       button: 'Conoce más'
     },
     about: {
       title: 'Sobre Mí',
-      role: 'Desarrollador de Software & QA',
+      role: 'Desarrollador Frontend | QA',
       intro: 'Hola! Soy un desarrollador de software muy dedicado con experiencia en Spring, Java, JavaScript, MySQL, React, CSS y Git. Tengo una comprensión integral de diferentes frameworks y me encanta el desarrollo web y el diseño.',
       skills: {
         backend: 'Desarrollo Backend',

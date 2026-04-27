@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
+
+const PROFILE_FALLBACK = 'https://github.com/MattVmx.png';
 
 const About = () => {
   const { t, language } = useLanguage();
+  const [profileSrc, setProfileSrc] = useState(
+    () => `${process.env.PUBLIC_URL || ''}/images/profile.jpg`.replace(/([^:]\/)\/+/g, '$1')
+  );
 
   return (
     <section id="about" className="about">
@@ -10,7 +15,13 @@ const About = () => {
         <h2 className="section-title">{t('about.title')}</h2>
         <div className="about-content">
           <div className="about-image">
-            <img src="/images/profile.jpg" alt="Profile" />
+            <img
+              src={profileSrc}
+              alt="Matías Speroni"
+              onError={() => {
+                if (profileSrc !== PROFILE_FALLBACK) setProfileSrc(PROFILE_FALLBACK);
+              }}
+            />
           </div>
           <div className="about-text">
             <div className="about-intro">
