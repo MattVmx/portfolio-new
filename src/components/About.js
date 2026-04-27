@@ -31,10 +31,8 @@ const About = () => {
               </p>
             </div>
             <div className="about-skills-list">
-              <div className="skill-badge">{t('about.skills.backend')}</div>
               <div className="skill-badge">{t('about.skills.frontend')}</div>
               <div className="skill-badge">{t('about.skills.qa')}</div>
-              <div className="skill-badge">{t('about.skills.design')}</div>
             </div>
             <p>{t('about.description')}</p>
             <div className="about-info">

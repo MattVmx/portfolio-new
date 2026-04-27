@@ -29,10 +29,8 @@ const translations = {
       role: 'Frontend Developer | QA',
       intro: 'Frontend developer focused on React, with experience working with APIs and full-stack applications.',
       skills: {
-        backend: 'Backend Development',
         frontend: 'Frontend Development',
-        qa: 'QA Testing',
-        design: 'Graphic Design'
+        qa: 'QA Testing'
       },
       description: 'Also MySQL, QA (manual and automated), Adobe tools, and close collaboration with backend teams.',
       languages: 'Languages:',
@@ -74,10 +72,8 @@ const translations = {
       role: 'Desarrollador Frontend | QA',
       intro: 'Desarrollador frontend enfocado en React, con experiencia en APIs y aplicaciones full-stack.',
       skills: {
-        backend: 'Desarrollo Backend',
         frontend: 'Desarrollo Frontend',
-        qa: 'QA Testing',
-        design: 'Diseño Gráfico'
+        qa: 'QA Testing'
       },
       description: 'Además: MySQL, QA (manual y automatizado), herramientas Adobe y trabajo conjunto con equipos backend.',
       languages: 'Idiomas:',
