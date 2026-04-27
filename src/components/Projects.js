@@ -9,8 +9,8 @@ const Projects = () => {
       type: 'App',
       title: 'Vitalidapp Health Service',
       description: {
-        en: 'Healthcare application for appointment scheduling and medical follow-up.',
-        es: 'Aplicación de servicios de salud con gestión de citas y seguimiento médico.'
+        en: 'Full-stack health services app with appointment scheduling, user management and API integration.',
+        es: 'Aplicación full-stack de servicios de salud con gestión de citas, administración de usuarios e integración con APIs.'
       },
       image: '/images/vitalidapp.jpg',
       demo: null,
