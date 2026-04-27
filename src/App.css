@@ -60,7 +60,6 @@ body {
     color: var(--primary-color);
     text-decoration: none;
     transition: var(--transition);
-    display: none;
 }
 
 .nav-logo a:hover {

@@ -49,7 +49,9 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <div className="nav-logo">
-          <a href="#home" onClick={(e) => handleNavClick(e, '#home')}></a>
+          <a href="#home" onClick={(e) => handleNavClick(e, '#home')}>
+            Portfolio
+          </a>
         </div>
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           <li className="nav-item">
